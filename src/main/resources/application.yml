@@ -14,6 +14,13 @@ spring:
       username: testUser
       password: testUserPassword
 
+  # 邮件配置
+  mail:
+    fromName: 邮件发送系统
+    from: 1310680372@qq.com
+    password: 授权密码
+    charSet: UTF-8
+
 # mybatis-plus
 mybatis-plus:
   mapper-locations: classpath:mapper/*/*.xml

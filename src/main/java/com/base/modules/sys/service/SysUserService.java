@@ -15,4 +15,6 @@ import java.util.Map;
  */
 public interface SysUserService extends IService<SysUserEntity> {
     Page queryAllUserByPage(Map<String, Object> params);
+
+    void sendMailWithAttachment() throws Exception;
 }
